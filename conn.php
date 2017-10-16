@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-echo "hiii Mimansha here";
+echo "hiii Mimansha here 2nd time";
 $sql = "SELECT userid,password FROM admin";
 $result = $conn->query($sql);
 
